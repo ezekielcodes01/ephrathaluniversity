@@ -335,8 +335,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac1.jpg) no-repeat center /
-    cover;
+  background: url(images/fac1.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -350,8 +349,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac2.jpg) no-repeat center /
-    cover;
+  background: url(images/fac2.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -360,15 +358,12 @@ h3 {
   }
 }
 
-
-
 .galimg3 {
   height: 300px;
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac3.jpg) no-repeat center /
-    cover;
+  background: url(images/fac3.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -382,8 +377,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac4.jpg) no-repeat center /
-    cover;
+  background: url(images/fac4.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -397,8 +391,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac5.jpg) no-repeat center /
-    cover;
+  background: url(images/fac5.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -412,8 +405,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac6.jpg) no-repeat center /
-    cover;
+  background: url(images/fac6.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -427,8 +419,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac7.jpg) no-repeat center /
-    cover;
+  background: url(images/fac7.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -442,8 +433,7 @@ h3 {
   margin-left: 2%;
   width: 322px;
   border: 0px;
-  background: url(images/fac8.jpg) no-repeat center /
-    cover;
+  background: url(images/fac8.jpg) no-repeat center / cover;
   &:hover {
     transform: scale(1.1);
     transition-duration: 1.2s;
@@ -459,11 +449,8 @@ h3 {
 @media (max-width: 700px) {
   .row1 {
     flex-direction: column;
-    
   }
 }
-
-
 
 /*-----Testimonials-----*/
 
@@ -680,17 +667,12 @@ body {
   clear: both;
 }
 
-.footer-content p {
-  font-size: larger;
-  font-weight: 500;
-  margin-right: 4%;
-}
-
 .footer-content {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-links {
@@ -708,6 +690,13 @@ body {
 .footer-links a {
   color: #fff;
   text-decoration: none;
+}
+
+.copy {
+  font-size: larger;
+  font-weight: 500;
+  margin-top: 2%;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
