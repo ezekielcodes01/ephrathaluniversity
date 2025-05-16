@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <title>Ephrathal University</title>
+  </head>
+  <body>
+    <section class="aboutheader">
+      <!-- //---nav-starting--// -->
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div
+          class="navlinks"
+          id="navLINKs">
+          <i
+            class="fa fa-times"
+            onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <i
+                class="fa-solid fa-house"
+                id="icon1"></i>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-circle-info"
+                id="icon1"></i>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-book"
+                id="icon1"></i>
+              <a href="course.html">COURSE</a>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-users-line"
+                id="icon1"></i>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i
+          class="fa fa-bars"
+          onclick="showMenu()"></i>
+      </nav>
+      <!---nav-ending--->
+
+      <!---textarea-start--->
+      <h1>About Our University</h1>
+    </section>
+
+    <!---about-us---section--->
+
+    <section class="aboutus">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world largest university</h1>
+          <p>
+            Established  five(5) ago, the University of Ephrathal has been a
+            beacon of qualitative and research-oriented education for thousands
+            of Technology knowledge seekers who come to its domain from Nigeria and Abroad.
+            UNI-EPHRATH’s vibrant community sprouts from a fountain of distinction,
+            which produces top-tier graduates and academia whose impactful
+            contributions continue to shape Nigeria’s techies growth and development.
+          </p>
+          <a
+            href="contact.html"
+            class="explorebutton abt-usbtn"
+            >Explore Now</a
+          >
+        </div>
+
+        <div class="about-col">
+          <img src="images/logo.png" />
+        </div>
+      </div>
+    </section>
+
+    <!---Footer--->
+    <section class="foot">
+      <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 Ephrathal University</p>
+          <ul class="footer-links">
+            <li>
+              <a href="https://accounts.google.com/v3/signin/"
+                ><i
+                  class="fa fa-envelope-o fa-2xl"
+                  style="color: red"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com"
+                ><i
+                  class="fab fa-facebook fa-2xl"
+                  style="color: blue"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://x.com/"
+                ><i
+                  class="fab fa-x-twitter fa-2xl"
+                  style="color: black"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://discord.com/&ved=2ahUKEwi2kvKM6aaNAxUSVkEAHfW2BJwQFnoECAoQAQ&usg=AOvVaw3ZXH2nDvLvenMA-2E6NjiK"
+                ><i
+                  class="fa-brands fa-discord fa-2xl"
+                  style="color: #4d62f6"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/login&ved=2ahUKEwjX6env6KaNAxXzbEEAHVXAI48QFnoECAkQAQ&usg=AOvVaw0Nm71ZUGxfI8ojRjO8H1X_"
+                ><i
+                  class="fab fa-linkedin-in fa-2xl"
+                  style="--fa-animation-duration: 2s"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+
+
+    <script
+      src="https://kit.fontawesome.com/5fa5840518.js"
+      crossorigin="anonymous"></script>
+
+    <!--js-menu-->
+    <script>
+      var navLINKs = document.getElementById("navLINKs");
+
+      function showMenu() {
+        navLINKs.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLINKs.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
